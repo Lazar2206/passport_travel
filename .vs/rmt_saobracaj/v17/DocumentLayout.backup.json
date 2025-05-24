@@ -1,0 +1,226 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\rmt_saobracaj\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C01FC0-8A36-4D3E-B6FF-024AFD75C897}|Forme\\Forme.csproj|c:\\users\\pc\\source\\repos\\rmt_saobracaj\\forme\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C01FC0-8A36-4D3E-B6FF-024AFD75C897}|Forme\\Forme.csproj|solutionrelative:forme\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90D05725-AD12-4ECF-8C64-EA47DF4CA315}|Logika\\Logika.csproj|c:\\users\\pc\\source\\repos\\rmt_saobracaj\\logika\\kontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90D05725-AD12-4ECF-8C64-EA47DF4CA315}|Logika\\Logika.csproj|solutionrelative:logika\\kontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{117CCD32-2389-4A49-92E4-684E155833DB}|DBBroker\\DBBroker.csproj|c:\\users\\pc\\source\\repos\\rmt_saobracaj\\dbbroker\\broker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{117CCD32-2389-4A49-92E4-684E155833DB}|DBBroker\\DBBroker.csproj|solutionrelative:dbbroker\\broker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CCD7480-C668-4D77-BC98-0775B3F7B6C1}|Domen\\Domen.csproj|c:\\users\\pc\\source\\repos\\rmt_saobracaj\\domen\\prijavljenaputovanja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CCD7480-C668-4D77-BC98-0775B3F7B6C1}|Domen\\Domen.csproj|solutionrelative:domen\\prijavljenaputovanja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CCD7480-C668-4D77-BC98-0775B3F7B6C1}|Domen\\Domen.csproj|c:\\users\\pc\\source\\repos\\rmt_saobracaj\\domen\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CCD7480-C668-4D77-BC98-0775B3F7B6C1}|Domen\\Domen.csproj|solutionrelative:domen\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C01FC0-8A36-4D3E-B6FF-024AFD75C897}|Forme\\Forme.csproj|c:\\users\\pc\\source\\repos\\rmt_saobracaj\\forme\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C01FC0-8A36-4D3E-B6FF-024AFD75C897}|Forme\\Forme.csproj|solutionrelative:forme\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F71E5207-2A00-474C-8C4B-8C528AEF1ADC}|Repozitorijumi\\Repozitorijumi.csproj|c:\\users\\pc\\source\\repos\\rmt_saobracaj\\repozitorijumi\\repozitorijumkorisnici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F71E5207-2A00-474C-8C4B-8C528AEF1ADC}|Repozitorijumi\\Repozitorijumi.csproj|solutionrelative:repozitorijumi\\repozitorijumkorisnici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C01FC0-8A36-4D3E-B6FF-024AFD75C897}|Forme\\Forme.csproj|C:\\Users\\PC\\source\\repos\\rmt_saobracaj\\forme\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4C01FC0-8A36-4D3E-B6FF-024AFD75C897}|Forme\\Forme.csproj|solutionrelative:forme\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C01FC0-8A36-4D3E-B6FF-024AFD75C897}|Forme\\Forme.csproj|C:\\Users\\PC\\source\\repos\\rmt_saobracaj\\forme\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4C01FC0-8A36-4D3E-B6FF-024AFD75C897}|Forme\\Forme.csproj|solutionrelative:forme\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C01FC0-8A36-4D3E-B6FF-024AFD75C897}|Forme\\Forme.csproj|c:\\users\\pc\\source\\repos\\rmt_saobracaj\\forme\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C01FC0-8A36-4D3E-B6FF-024AFD75C897}|Forme\\Forme.csproj|solutionrelative:forme\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CCD7480-C668-4D77-BC98-0775B3F7B6C1}|Domen\\Domen.csproj|c:\\users\\pc\\source\\repos\\rmt_saobracaj\\domen\\prevoz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CCD7480-C668-4D77-BC98-0775B3F7B6C1}|Domen\\Domen.csproj|solutionrelative:domen\\prevoz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CCD7480-C668-4D77-BC98-0775B3F7B6C1}|Domen\\Domen.csproj|c:\\users\\pc\\source\\repos\\rmt_saobracaj\\domen\\statusprijave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CCD7480-C668-4D77-BC98-0775B3F7B6C1}|Domen\\Domen.csproj|solutionrelative:domen\\statusprijave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PrijavljenaPutovanja.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\rmt_saobracaj\\Domen\\PrijavljenaPutovanja.cs",
+              "RelativeDocumentMoniker": "Domen\\PrijavljenaPutovanja.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\rmt_saobracaj\\Domen\\PrijavljenaPutovanja.cs",
+              "RelativeToolTip": "Domen\\PrijavljenaPutovanja.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T21:08:32.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\rmt_saobracaj\\Forme\\Program.cs",
+              "RelativeDocumentMoniker": "Forme\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\rmt_saobracaj\\Forme\\Program.cs",
+              "RelativeToolTip": "Forme\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T20:36:32.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RepozitorijumKorisnici.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\rmt_saobracaj\\Repozitorijumi\\RepozitorijumKorisnici.cs",
+              "RelativeDocumentMoniker": "Repozitorijumi\\RepozitorijumKorisnici.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\rmt_saobracaj\\Repozitorijumi\\RepozitorijumKorisnici.cs",
+              "RelativeToolTip": "Repozitorijumi\\RepozitorijumKorisnici.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T20:36:32.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Broker.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\rmt_saobracaj\\DBBroker\\Broker.cs",
+              "RelativeDocumentMoniker": "DBBroker\\Broker.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\rmt_saobracaj\\DBBroker\\Broker.cs",
+              "RelativeToolTip": "DBBroker\\Broker.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAAAJAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T20:35:34.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Kontroler.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\rmt_saobracaj\\Logika\\Kontroler.cs",
+              "RelativeDocumentMoniker": "Logika\\Kontroler.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\rmt_saobracaj\\Logika\\Kontroler.cs",
+              "RelativeToolTip": "Logika\\Kontroler.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACIAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T20:31:46.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Prevoz.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\rmt_saobracaj\\Domen\\Prevoz.cs",
+              "RelativeDocumentMoniker": "Domen\\Prevoz.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\rmt_saobracaj\\Domen\\Prevoz.cs",
+              "RelativeToolTip": "Domen\\Prevoz.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T20:29:10.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StatusPrijave.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\rmt_saobracaj\\Domen\\StatusPrijave.cs",
+              "RelativeDocumentMoniker": "Domen\\StatusPrijave.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\rmt_saobracaj\\Domen\\StatusPrijave.cs",
+              "RelativeToolTip": "Domen\\StatusPrijave.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T20:29:08.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Korisnik.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\rmt_saobracaj\\Domen\\Korisnik.cs",
+              "RelativeDocumentMoniker": "Domen\\Korisnik.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\rmt_saobracaj\\Domen\\Korisnik.cs",
+              "RelativeToolTip": "Domen\\Korisnik.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T20:18:14.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FrmRegister.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\rmt_saobracaj\\Forme\\FrmRegister.cs",
+              "RelativeDocumentMoniker": "Forme\\FrmRegister.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\rmt_saobracaj\\Forme\\FrmRegister.cs",
+              "RelativeToolTip": "Forme\\FrmRegister.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAACcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T20:18:01.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\rmt_saobracaj\\Forme\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "Forme\\FrmLogin.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\rmt_saobracaj\\Forme\\FrmLogin.cs",
+              "RelativeToolTip": "Forme\\FrmLogin.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T20:09:38.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FrmRegister.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\rmt_saobracaj\\Forme\\FrmRegister.cs",
+              "RelativeDocumentMoniker": "Forme\\FrmRegister.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\rmt_saobracaj\\Forme\\FrmRegister.cs [Design]",
+              "RelativeToolTip": "Forme\\FrmRegister.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T19:57:45.013Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\rmt_saobracaj\\Forme\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "Forme\\FrmLogin.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\rmt_saobracaj\\Forme\\FrmLogin.cs [Design]",
+              "RelativeToolTip": "Forme\\FrmLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T19:57:22.671Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
