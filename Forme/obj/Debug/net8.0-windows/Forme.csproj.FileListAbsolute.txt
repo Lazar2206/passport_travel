@@ -78,3 +78,10 @@ C:\Users\PC\source\repos\rmt_saobracaj\Forme\bin\Debug\net8.0-windows\runtimes\w
 C:\Users\PC\source\repos\rmt_saobracaj\Forme\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\PC\source\repos\rmt_saobracaj\Forme\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
 C:\Users\PC\source\repos\rmt_saobracaj\Forme\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\PC\source\repos\rmt_saobracaj\Forme\obj\Debug\net8.0-windows\Forme.FrmScheduleTrip.resources
+C:\Users\PC\source\repos\rmt_saobracaj\Forme\obj\Debug\net8.0-windows\Forme.sourcelink.json
+C:\Users\PC\source\repos\rmt_saobracaj\Forme\obj\Debug\net8.0-windows\Forme.FrmShowTrip.resources
+C:\Users\PC\source\repos\rmt_saobracaj\Forme\obj\Debug\net8.0-windows\Forme.FrmChangeTrip.resources
+C:\Users\PC\source\repos\rmt_saobracaj\Forme\bin\Debug\net8.0-windows\ZajednickaKomunikacija.dll
+C:\Users\PC\source\repos\rmt_saobracaj\Forme\bin\Debug\net8.0-windows\ZajednickaKomunikacija.pdb
+C:\Users\PC\source\repos\rmt_saobracaj\Forme\obj\Debug\net8.0-windows\Forme.FrmWithoutAccount.resources

@@ -764,6 +764,16 @@
         "runtime": {
           "bin/placeholder/Repozitorijumi.dll": {}
         }
+      },
+      "ZajednickaKomunikacija/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ZajednickaKomunikacija.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ZajednickaKomunikacija.dll": {}
+        }
       }
     }
   },
@@ -1896,13 +1906,19 @@
       "type": "project",
       "path": "../Repozitorijumi/Repozitorijumi.csproj",
       "msbuildProject": "../Repozitorijumi/Repozitorijumi.csproj"
+    },
+    "ZajednickaKomunikacija/1.0.0": {
+      "type": "project",
+      "path": "../ZajednickaKomunikacija/ZajednickaKomunikacija.csproj",
+      "msbuildProject": "../ZajednickaKomunikacija/ZajednickaKomunikacija.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
       "Domen >= 1.0.0",
       "Logika >= 1.0.0",
-      "Microsoft.Data.SqlClient >= 6.0.2"
+      "Microsoft.Data.SqlClient >= 6.0.2",
+      "ZajednickaKomunikacija >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1942,6 +1958,9 @@
             },
             "C:\\Users\\PC\\source\\repos\\rmt_saobracaj\\Logika\\Logika.csproj": {
               "projectPath": "C:\\Users\\PC\\source\\repos\\rmt_saobracaj\\Logika\\Logika.csproj"
+            },
+            "C:\\Users\\PC\\source\\repos\\rmt_saobracaj\\ZajednickaKomunikacija\\ZajednickaKomunikacija.csproj": {
+              "projectPath": "C:\\Users\\PC\\source\\repos\\rmt_saobracaj\\ZajednickaKomunikacija\\ZajednickaKomunikacija.csproj"
             }
           }
         }

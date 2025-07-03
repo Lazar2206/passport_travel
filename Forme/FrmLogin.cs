@@ -14,6 +14,7 @@ namespace Forme
 {
     public partial class FrmLogin : Form
     {
+        private Komunikacija komunikacija;
         public FrmLogin()
         {
             InitializeComponent();
@@ -21,19 +22,55 @@ namespace Forme
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
+            PoveziSe();
             Login();
         }
+
+        private void PoveziSe()
+        {
+            if (komunikacija == null)
+            {
+                komunikacija = new Komunikacija();
+                if (!komunikacija.PoveziSe())//provera da li se povezao 
+                {
+                    komunikacija = null; //ako se nije povezao
+                    MessageBox.Show("Neuspešno povezivanje");
+                    return;
+                }
+            }
+        }
+
         private void Login()
         {
+            Korisnik potencijalni = Kontroler.Instance.PronadjiKorisnika(txtUsername.Text,txtPassword.Text);
+            if(potencijalni==null)
+            {
+                MessageBox.Show("Pogrešili ste username ili password");
+                return;
+            }
             Korisnik korisnik = new Korisnik()
             {
+                Ime=potencijalni.Ime,
+                Prezime=potencijalni.Prezime,
+                Email=potencijalni.Email,
+                JMBG=potencijalni.JMBG,
+                brojPasoša=potencijalni.brojPasoša,
                 Username = txtUsername.Text,
                 Password = txtPassword.Text,
+                
             };
-            if (Kontroler.Instance.Login(korisnik))
+            //kreiranje zahteva
+            Poruka zahtev = new Poruka();
+            zahtev.Object = korisnik;
+            zahtev.Operacija = Operacija.Login;
+            //slanje zahteva
+            komunikacija.PošaljiPoruku(zahtev);
+            //primanje odgovora
+            Poruka odgovor = komunikacija.PrimiPoruku();
+            if (odgovor.Operacija.Equals(Operacija.Uspesno))
             {
                 MessageBox.Show("Dobrodošli");
-                FrmGlavna frm = new FrmGlavna();
+                FrmGlavna frm = new FrmGlavna(korisnik, komunikacija);
                 this.Visible = false;
                 frm.ShowDialog();
             }
@@ -46,11 +83,18 @@ namespace Forme
 
         private void btnRegister_Click(object sender, EventArgs e)
         {
-            FrmRegister frm = new FrmRegister();
-            this.Visible = false;
+            FrmRegister frm = new FrmRegister(komunikacija);
             frm.ShowDialog();
-            
-            
+
+
+        }
+
+        private void btnBezNaloga_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Dobrodošli");
+            FrmWithoutAccount bezNaloga = new FrmWithoutAccount(komunikacija);
+            this.Visible = false;
+            bezNaloga.ShowDialog();
         }
     }
 }

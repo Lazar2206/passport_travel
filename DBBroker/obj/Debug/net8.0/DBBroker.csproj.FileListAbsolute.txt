@@ -13,3 +13,4 @@ C:\Users\PC\source\repos\rmt_saobracaj\DBBroker\obj\Debug\net8.0\ref\DBBroker.dl
 C:\Users\PC\source\repos\rmt_saobracaj\DBBroker\bin\Debug\net8.0\Domen.dll
 C:\Users\PC\source\repos\rmt_saobracaj\DBBroker\bin\Debug\net8.0\Domen.pdb
 C:\Users\PC\source\repos\rmt_saobracaj\DBBroker\obj\Debug\net8.0\DBBroker.csproj.Up2Date
+C:\Users\PC\source\repos\rmt_saobracaj\DBBroker\obj\Debug\net8.0\DBBroker.sourcelink.json

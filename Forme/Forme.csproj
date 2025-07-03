@@ -15,6 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Domen\Domen.csproj" />
     <ProjectReference Include="..\Logika\Logika.csproj" />
+    <ProjectReference Include="..\ZajednickaKomunikacija\ZajednickaKomunikacija.csproj" />
   </ItemGroup>
 
 </Project>

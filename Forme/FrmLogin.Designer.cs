@@ -35,6 +35,7 @@
             btnLogin = new Button();
             btnRegister = new Button();
             label3 = new Label();
+            btnBezNaloga = new Button();
             SuspendLayout();
             // 
             // txtUsername
@@ -54,7 +55,7 @@
             // lblPassword
             // 
             lblPassword.AutoSize = true;
-            lblPassword.Location = new Point(101, 148);
+            lblPassword.Location = new Point(117, 144);
             lblPassword.Name = "lblPassword";
             lblPassword.Size = new Size(77, 20);
             lblPassword.TabIndex = 2;
@@ -63,7 +64,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(101, 95);
+            label2.Location = new Point(112, 91);
             label2.Name = "label2";
             label2.Size = new Size(82, 20);
             label2.TabIndex = 3;
@@ -73,7 +74,7 @@
             // 
             btnLogin.Location = new Point(169, 223);
             btnLogin.Name = "btnLogin";
-            btnLogin.Size = new Size(94, 29);
+            btnLogin.Size = new Size(104, 29);
             btnLogin.TabIndex = 4;
             btnLogin.Text = "Uloguj se";
             btnLogin.UseVisualStyleBackColor = true;
@@ -83,7 +84,7 @@
             // 
             btnRegister.Location = new Point(169, 318);
             btnRegister.Name = "btnRegister";
-            btnRegister.Size = new Size(94, 29);
+            btnRegister.Size = new Size(104, 29);
             btnRegister.TabIndex = 5;
             btnRegister.Text = "Registruj se";
             btnRegister.UseVisualStyleBackColor = true;
@@ -92,17 +93,28 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(169, 283);
+            label3.Location = new Point(169, 275);
             label3.Name = "label3";
             label3.Size = new Size(104, 20);
             label3.TabIndex = 6;
             label3.Text = "Nemaš nalog?";
             // 
+            // btnBezNaloga
+            // 
+            btnBezNaloga.Location = new Point(169, 376);
+            btnBezNaloga.Name = "btnBezNaloga";
+            btnBezNaloga.Size = new Size(104, 53);
+            btnBezNaloga.TabIndex = 7;
+            btnBezNaloga.Text = "Zakaži bez naloga";
+            btnBezNaloga.UseVisualStyleBackColor = true;
+            btnBezNaloga.Click += btnBezNaloga_Click;
+            // 
             // FrmLogin
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(458, 450);
+            ClientSize = new Size(455, 485);
+            Controls.Add(btnBezNaloga);
             Controls.Add(label3);
             Controls.Add(btnRegister);
             Controls.Add(btnLogin);
@@ -125,5 +137,6 @@
         private Button btnLogin;
         private Button btnRegister;
         private Label label3;
+        private Button btnBezNaloga;
     }
 }

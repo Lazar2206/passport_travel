@@ -12,49 +12,115 @@ using System.Windows.Forms;
 
 namespace Forme
 {
+
     public partial class FrmRegister : Form
     {
-        public FrmRegister()
+        
+        private Komunikacija komunikacija;
+        public FrmRegister(Komunikacija komunikacija)
         {
             InitializeComponent();
+            this.komunikacija = komunikacija;
+            
         }
 
         private void btnRegistruj_Click(object sender, EventArgs e)
         {
+            PoveziSe();
+            Register();
+        }
+
+        private void PoveziSe()
+        {
+            if (komunikacija == null)
+            {
+                komunikacija = new Komunikacija();
+                if (!komunikacija.PoveziSe())//provera da li se povezao 
+                {
+                    komunikacija = null; //ako se nije povezao
+                    MessageBox.Show("Neuspešno povezivanje");
+                    return;
+                }
+            }
+        }
+
+        private void Register()
+        {
+            if (string.IsNullOrWhiteSpace(txtIme.Text) ||
+          string.IsNullOrWhiteSpace(txtPrezime.Text) ||
+            string.IsNullOrWhiteSpace(txtJMBG.Text) ||
+            string.IsNullOrWhiteSpace(txtUsername.Text) ||
+              string.IsNullOrWhiteSpace(txtEmail.Text) ||
+               string.IsNullOrWhiteSpace(txtpasos.Text))
+            {
+                MessageBox.Show("Molimo vas da popunite sva polja.");
+                return;
+            }
             if (!ValidanJMBG(txtJMBG.Text))
             {
                 MessageBox.Show("Unesi JMBG u formatu: DDMMGGGRRBBBK");
                 return;
             }
 
-            if (!txtJMBG.Text.Equals(txtpasos.Text))
-            {
-                MessageBox.Show("JMBG i broj pasoša moraju biti jednaki.");
-                return;
-            }
+          
             if (Kontroler.Instance.UsernamePostoji(txtUsername.Text))
             {
                 MessageBox.Show("Korisnicko ime vec postoji.");
                 return;
             }
-            if (Kontroler.Instance.JmbgPostoji(txtJMBG.Text))
+          
+           
+            if (txtpasos.Text.Length != 9 || !txtpasos.Text.All(char.IsDigit))
             {
-                MessageBox.Show("Korisnik sa ovim JMBG-om već postoji.");
+                MessageBox.Show("Unesite broj pasoša u dobrom formatu");
+                return;
+            }
+            if (!Kontroler.Instance.PraviDrzavljanin(txtJMBG.Text, txtIme.Text, txtPrezime.Text, txtpasos.Text))
+            {
+                MessageBox.Show("Ime i prezime osobe se ne poklapa sa JMBG i pasošom");
+                return;
+            }
+            if (Kontroler.Instance.PostojiRegKorisnik(txtJMBG.Text, txtpasos.Text))
+            {
+                MessageBox.Show("Već postoji registrovani korisnik sa ovim JMBG-om i pasošem");
                 return;
             }
 
+
             Korisnik korisnik = new Korisnik()
             {
-                Ime=txtIme.Text,
-                Prezime=txtPrezime.Text,
-                Email=txtEmail.Text,
-                Username=txtUsername.Text,
-                Password=txtPassword.Text,
-                JMBG=txtJMBG.Text,
-                brojPasoša=txtpasos.Text
+                Ime = txtIme.Text,
+                Prezime = txtPrezime.Text,
+                Email = txtEmail.Text,
+                Username = txtUsername.Text,
+                Password = txtPassword.Text,
+                JMBG = txtJMBG.Text,
+                brojPasoša = txtpasos.Text
             };
-            Kontroler.Instance.DodajKorisnika(korisnik);
-            MessageBox.Show("Uspešna registracija");
+          
+
+            //kreiranje zahteva
+            Poruka zahtev = new Poruka
+            {
+                Object = korisnik,
+                Operacija = Operacija.Register
+            };
+            //slanje zahteva
+            komunikacija.PošaljiPoruku(zahtev);
+            //primanje odgovora
+            Poruka odgovor = komunikacija.PrimiPoruku();
+            if (odgovor.Operacija == Operacija.Uspesno)
+            {
+               
+                MessageBox.Show("Uspešno");
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Neuspešno");
+            }
+            //Kontroler.Instance.DodajKorisnika(korisnik);
+            //MessageBox.Show("Uspešna registracija");
         }
         private bool ValidanJMBG(string jmbg)
         {
@@ -75,6 +141,7 @@ namespace Forme
             {
                 return false;
             }
+        
         }
     }
 }

@@ -17,3 +17,4 @@ C:\Users\PC\source\repos\rmt_saobracaj\Logika\obj\Debug\net8.0\Logika.dll
 C:\Users\PC\source\repos\rmt_saobracaj\Logika\obj\Debug\net8.0\refint\Logika.dll
 C:\Users\PC\source\repos\rmt_saobracaj\Logika\obj\Debug\net8.0\Logika.pdb
 C:\Users\PC\source\repos\rmt_saobracaj\Logika\obj\Debug\net8.0\ref\Logika.dll
+C:\Users\PC\source\repos\rmt_saobracaj\Logika\obj\Debug\net8.0\Logika.sourcelink.json

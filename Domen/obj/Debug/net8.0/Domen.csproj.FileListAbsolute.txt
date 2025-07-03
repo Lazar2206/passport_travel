@@ -10,3 +10,4 @@ C:\Users\PC\source\repos\rmt_saobracaj\Domen\obj\Debug\net8.0\refint\Domen.dll
 C:\Users\PC\source\repos\rmt_saobracaj\Domen\obj\Debug\net8.0\Domen.pdb
 C:\Users\PC\source\repos\rmt_saobracaj\Domen\obj\Debug\net8.0\ref\Domen.dll
 C:\Users\PC\source\repos\rmt_saobracaj\Domen\obj\Debug\net8.0\Domen.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\rmt_saobracaj\Domen\obj\Debug\net8.0\Domen.sourcelink.json

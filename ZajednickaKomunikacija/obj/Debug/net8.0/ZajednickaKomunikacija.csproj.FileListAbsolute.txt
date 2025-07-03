@@ -1,0 +1,12 @@
+C:\Users\PC\source\repos\rmt_saobracaj\ZajednickaKomunikacija\bin\Debug\net8.0\ZajednickaKomunikacija.deps.json
+C:\Users\PC\source\repos\rmt_saobracaj\ZajednickaKomunikacija\bin\Debug\net8.0\ZajednickaKomunikacija.dll
+C:\Users\PC\source\repos\rmt_saobracaj\ZajednickaKomunikacija\bin\Debug\net8.0\ZajednickaKomunikacija.pdb
+C:\Users\PC\source\repos\rmt_saobracaj\ZajednickaKomunikacija\obj\Debug\net8.0\ZajednickaKomunikacija.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos\rmt_saobracaj\ZajednickaKomunikacija\obj\Debug\net8.0\ZajednickaKomunikacija.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\rmt_saobracaj\ZajednickaKomunikacija\obj\Debug\net8.0\ZajednickaKomunikacija.AssemblyInfo.cs
+C:\Users\PC\source\repos\rmt_saobracaj\ZajednickaKomunikacija\obj\Debug\net8.0\ZajednickaKomunikacija.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\rmt_saobracaj\ZajednickaKomunikacija\obj\Debug\net8.0\ZajednickaKomunikacija.sourcelink.json
+C:\Users\PC\source\repos\rmt_saobracaj\ZajednickaKomunikacija\obj\Debug\net8.0\ZajednickaKomunikacija.dll
+C:\Users\PC\source\repos\rmt_saobracaj\ZajednickaKomunikacija\obj\Debug\net8.0\refint\ZajednickaKomunikacija.dll
+C:\Users\PC\source\repos\rmt_saobracaj\ZajednickaKomunikacija\obj\Debug\net8.0\ZajednickaKomunikacija.pdb
+C:\Users\PC\source\repos\rmt_saobracaj\ZajednickaKomunikacija\obj\Debug\net8.0\ref\ZajednickaKomunikacija.dll

@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="FrmChangeTrip.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FrmGlavna.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -8,6 +11,15 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FrmRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmScheduleTrip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmShowTrip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmWithoutAccount.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

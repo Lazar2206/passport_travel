@@ -13,3 +13,4 @@ C:\Users\PC\source\repos\rmt_saobracaj\Repozitorijumi\obj\Debug\net8.0\Repozitor
 C:\Users\PC\source\repos\rmt_saobracaj\Repozitorijumi\obj\Debug\net8.0\refint\Repozitorijumi.dll
 C:\Users\PC\source\repos\rmt_saobracaj\Repozitorijumi\obj\Debug\net8.0\Repozitorijumi.pdb
 C:\Users\PC\source\repos\rmt_saobracaj\Repozitorijumi\obj\Debug\net8.0\ref\Repozitorijumi.dll
+C:\Users\PC\source\repos\rmt_saobracaj\Repozitorijumi\obj\Debug\net8.0\Repozitorijumi.sourcelink.json

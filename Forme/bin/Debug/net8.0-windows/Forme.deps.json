@@ -10,7 +10,8 @@
         "dependencies": {
           "Domen": "1.0.0",
           "Logika": "1.0.0",
-          "Microsoft.Data.SqlClient": "6.0.2"
+          "Microsoft.Data.SqlClient": "6.0.2",
+          "ZajednickaKomunikacija": "1.0.0"
         },
         "runtime": {
           "Forme.dll": {}
@@ -521,6 +522,14 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "ZajednickaKomunikacija/1.0.0": {
+        "runtime": {
+          "ZajednickaKomunikacija.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -826,6 +835,11 @@
       "sha512": ""
     },
     "Repozitorijumi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ZajednickaKomunikacija/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
