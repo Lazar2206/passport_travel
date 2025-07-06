@@ -21,6 +21,7 @@ namespace ServerskaStrana
             Thread nit = new Thread(server.Accept);
             nit.Start();
             btnPokreni.Enabled = false;
+            btnZaustavi.Enabled = true;
             Thread nit1 = new Thread(NapuniDGV);
             nit1.Start();
 
